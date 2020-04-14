@@ -1,0 +1,7 @@
+.App {
+  background-image: url(../src/img/lakebled.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
