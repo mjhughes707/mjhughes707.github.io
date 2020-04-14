@@ -1,7 +1,7 @@
 .Home {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: 3rem 0 0 2rem;
   height: 100vh;
   max-width: 80%;
 }
@@ -25,7 +25,7 @@ h2 {
 /* BUTTONS */
 
 .home-button {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   padding: 0;
   width: 150px;
   height: 2rem;
