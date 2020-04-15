@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --clr-light: #f2e5d5;
+  --clr-bright: #a0ccf2;
+  --clr-dark: #6b90bf;
+  --clr-primary: #3c6aa6;
+  --clr-secondary: #70731d;
+}
+
 html,
 body {
   margin: 0;
@@ -31,4 +39,37 @@ h2,
 h3,
 h4 {
   font-family: "Raleway", sans-serif;
+}
+
+.section-container {
+  padding: 7.5% 7.5% 0;
+  height: 100vh;
+  background: white;
+}
+
+.section-title {
+  margin: 0;
+  padding-bottom: 0.5rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: var(--clr-secondary);
+  border-bottom: 2px solid black;
+}
+
+.section-description {
+  margin-top: 1.5rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .section-container {
+    padding: 7.5% 10% 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .section-container {
+    padding: 7.5% 15% 0;
+  }
 }

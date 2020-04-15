@@ -4,10 +4,10 @@
   align-items: center;
   padding: 0.5rem 1rem;
   height: 3.5rem;
-  background-color: rgba(191, 181, 132, 0.4);
+  background-color: var(--clr-light);
 }
 
-/* Socials */
+/* SOCIALS */
 
 .Socials {
   display: flex;
@@ -17,15 +17,15 @@
   padding: 0 0.4rem;
   font-size: 1.1rem;
   color: black;
-  transition: color 0.4s;
+  transition: color 0.3s;
 }
 
 .Social:hover,
 .Social:focus {
-  color: rgb(35, 0, 189);
+  color: var(--clr-primary);
 }
 
-/* Hamburger */
+/* HAMBURGER */
 
 .Hamburger {
   display: flex;
@@ -69,13 +69,13 @@
   bottom: 6px;
 }
 
-/* Navlinks */
+/* NAVLINKS */
 
 .Navlinks {
   margin: 0;
   padding: 0;
   border-top: 1px solid white;
-  background-color: rgba(191, 181, 132, 0.4);
+  background-color: var(--clr-light);
 }
 
 .Navlink {
@@ -90,8 +90,14 @@
   align-items: center;
   text-decoration: none;
   color: black;
+  letter-spacing: 2px;
   height: 100%;
   width: 100%;
+}
+
+.Navlink a:hover,
+.Navlink a:focus {
+  -webkit-text-stroke-width: 0.75px;
 }
 
 .show-navlinks {
