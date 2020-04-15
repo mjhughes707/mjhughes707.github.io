@@ -13,7 +13,10 @@ const Header = () => {
   return (
     <div>
       <Navbar toggleNavlinks={toggleNavlinks} />
-      <Navlinks visibility={navlinks ? "show-navlinks" : "hide-navlinks"} />
+      <Navlinks
+        toggleNavlinks={toggleNavlinks}
+        visibility={navlinks ? "show-navlinks" : "hide-navlinks"}
+      />
     </div>
   );
 };
