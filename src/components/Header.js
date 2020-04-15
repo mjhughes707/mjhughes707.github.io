@@ -1,14 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import PropTypes from "prop-types";
 import "./Navigation/Navigation.css";
 import Navbar from "./Navigation/Navbar";
 import Navlinks from "./Navigation/Navlinks";
 
-const Header = () => {
-  const [navlinks, setNavlinks] = useState(false);
-
-  const toggleNavlinks = () => {
-    setNavlinks(!navlinks);
-  };
+const Header = (props) => {
+  const { navlinks, toggleNavlinks } = props;
 
   return (
     <div>
@@ -19,6 +16,10 @@ const Header = () => {
       />
     </div>
   );
+};
+
+Header.propTypes = {
+  toggleNavlinks: PropTypes.func.isRequired,
 };
 
 export default Header;
