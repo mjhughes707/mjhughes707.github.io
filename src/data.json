@@ -1,0 +1,109 @@
+{
+  "Projects": [
+    {
+      "dates": "Dec. 2019 - Jan. 2020",
+      "name": "Pod Guild",
+      "caption": "Platform to connect podcast hosts and guests",
+      "thumbnail": "pod-guild.png",
+      "altText": "Screenshot preview of the desktop version of the Pod Guild app",
+      "description": "...",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node",
+        "Express",
+        "MongoDB"
+      ],
+      "website": "https://github.com/mjhughes707/podguild",
+      "github": "https://github.com/mjhughes707/podguild"
+    },
+    {
+      "dates": "Jan. 2020",
+      "name": "States Game",
+      "caption": "A fun variation of 'Chandler's dumb states game' from Friends",
+      "thumbnail": "states-game.png",
+      "description": "...",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"],
+      "website": "https://matthewjhughes.com/states-game/",
+      "github": "https://github.com/mjhughes707/states-game"
+    },
+    {
+      "dates": "Jan. 2020",
+      "name": "Stocker",
+      "caption": "Displays most recent tweets based on specific stock symbols",
+      "thumbnail": "stocker.png",
+      "description": "...",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "StockTwits API"],
+      "website": "https://matthewjhughes.com/stocker/",
+      "github": "https://github.com/mjhughes707/stocker"
+    },
+    {
+      "dates": "Nov. 2019",
+      "name": "Make-A-Meowm",
+      "caption": "Cat-Themed Meme Generator",
+      "thumbnail": "make-a-meowm.png",
+      "description": "Inspired by the capstone project for the Intro to React course on Scrimba. Powered by my love for cats :-)",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "The Cat API"],
+      "website": "https://matthewjhughes.com/make-a-meowm/",
+      "github": "https://github.com/mjhughes707/make-a-meowm"
+    },
+    {
+      "dates": "Oct. 2019 - Nov. 2019",
+      "name": "Food Cart City",
+      "caption": "Food Cart Database for Portland, OR",
+      "thumbnail": "foodcartcity.png",
+      "description": "Inspired by the capstone project for the Intro to React course on Scrimba. Powered by my love for cats :-)",
+      "technologies": [
+        "Python",
+        "Django",
+        "Django Rest Framework",
+        "JavaScript",
+        "Vue",
+        "Axios",
+        "Materialize",
+        "SQLite"
+      ],
+      "website": "http://foodcartcity.pythonanywhere.com/",
+      "github": "https://github.com/mjhughes707/foodcartcity"
+    }
+  ],
+  "Socials": [
+    {
+      "type": "Email",
+      "username": "mjhughes707@gmail.com",
+      "url": "mailto:mjhughes707@gmail.com",
+      "icon": "faEnvelope",
+      "iconName": "envelope"
+    },
+    {
+      "type": "LinkedIn",
+      "username": "mjhughes707",
+      "url": "https://www.linkedin.com/in/mjhughes707",
+      "icon": "faLinkedinIn",
+      "iconName": "linkedin-in"
+    },
+    {
+      "type": "Github",
+      "username": "mjhughes707",
+      "url": "https://github.com/mjhughes707",
+      "icon": "faGithub",
+      "iconName": "github"
+    },
+    {
+      "type": "Twitter",
+      "username": "mjhughes707",
+      "url": "https://twitter.com/mjhughes707",
+      "icon": "faTwitter",
+      "iconName": "twitter"
+    },
+    {
+      "type": "Blog",
+      "username": "mjhughes707",
+      "url": "https://medium.com/@mjhughes707",
+      "icon": "faMediumM",
+      "iconName": "medium-m"
+    }
+  ]
+}
