@@ -1,0 +1,53 @@
+.Projects {
+  padding-bottom: 3rem;
+  height: auto;
+}
+
+.Project {
+  margin-top: 1.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid black;
+}
+
+.project-dates {
+  margin-top: 1rem;
+}
+
+.project-name {
+  margin: 0.75rem 0 0.25rem;
+}
+
+.project-caption {
+  margin: 0 0 1rem;
+}
+
+.project-thumbnail {
+  width: 100%;
+}
+
+.project-thumbnail img {
+  width: 100%;
+}
+
+/* TECHNOLOGY */
+
+.technologies-title {
+  margin: 1.25rem 0 0.5rem;
+}
+
+.technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Technology {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  min-height: 2rem;
+  min-width: 5rem;
+  font-size: 0.8rem;
+  border: 2px solid white;
+  background-color: rgba(191, 181, 132, 0.9);
+}
