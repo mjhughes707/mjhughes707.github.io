@@ -7,20 +7,26 @@ import {
   faMediumM,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
+import data from "../../data.json";
 
 const Socials = () => {
-  const username = "mjhughes707";
+  const socials = data.Socials;
+  const fontawesomes = [
+    faEnvelope,
+    faTwitter,
+    faGithub,
+    faMediumM,
+    faLinkedinIn,
+  ];
 
   return (
     <div className="Socials">
-      <Social icon={faEnvelope} url={`mailto:${username}@gmail.com`} />
-      <Social
-        icon={faLinkedinIn}
-        url={`https://www.linkedin.com/in/${username}`}
-      />
-      <Social icon={faGithub} url={`https://github.com/${username}`} />
-      <Social icon={faTwitter} url={`https://twitter.com/${username}`} />
-      <Social icon={faMediumM} url={`https://medium.com/@${username}`} />
+      {socials.map((social, index) => {
+        const icon = fontawesomes.find(
+          (icon) => icon.iconName === social.iconName
+        );
+        return <Social key={index} icon={icon} url={social.url} />;
+      })}
     </div>
   );
 };
