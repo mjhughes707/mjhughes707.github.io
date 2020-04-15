@@ -6,18 +6,19 @@
   max-width: 80%;
 }
 
-h1,
-h2 {
+.home-title,
+.home-subtitle {
   margin: 0;
   color: white;
   text-shadow: 2px 2px 2px black;
 }
 
-h1 {
+.home-title {
   margin-top: 0.5rem;
+  font-size: 2.5rem;
 }
 
-h2 {
+.home-subtitle {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
