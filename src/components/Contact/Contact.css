@@ -1,0 +1,18 @@
+.social-container {
+  margin-top: 2rem;
+}
+
+.SocialRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.6rem 0;
+}
+
+.social-link {
+  color: black;
+  text-decoration: none;
+}
+
+.social-description {
+  margin-left: 0.5rem;
+}
