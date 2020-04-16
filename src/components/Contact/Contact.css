@@ -16,3 +16,15 @@
 .social-description {
   margin-left: 0.5rem;
 }
+
+.social-description:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.social-description:hover:after {
+  transform: scaleX(1);
+}
