@@ -1,7 +1,16 @@
 .App {
-  background-image: url("https://c0.wallpaperflare.com/preview/813/272/896/united-states-sonoma-county-vinyard-clouds.jpg");
+  display: flex;
+  flex-direction: column;
+  background-image: url("./img/vineyards.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .App {
+    flex-direction: row;
+  }
 }
