@@ -9,6 +9,7 @@ const Navlinks = (props) => {
     <ul className={`Navlinks ${visibility}`}>
       <Navlink toggleNavlinks={toggleNavlinks} name="ABOUT ME" />
       <Navlink toggleNavlinks={toggleNavlinks} name="PROJECTS" />
+      <Navlink toggleNavlinks={toggleNavlinks} name="RESUME" />
       <Navlink toggleNavlinks={toggleNavlinks} name="CONTACT" />
     </ul>
   );

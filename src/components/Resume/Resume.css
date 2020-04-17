@@ -1,0 +1,15 @@
+.resume-iframe {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  z-index: 1;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .resume-iframe {
+    margin-left: 300px;
+    width: calc(100vw - 300px);
+  }
+}
