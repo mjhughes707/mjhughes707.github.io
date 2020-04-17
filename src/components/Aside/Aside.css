@@ -71,6 +71,17 @@
   -webkit-text-stroke-width: 0.75px;
 }
 
+.selected {
+  -webkit-text-stroke-width: 0.75px;
+}
+
+.selected:after {
+  content: " \00BB ";
+  padding: 0 0 0.25rem 0.35rem;
+  color: var(--clr-primary);
+  font-size: 1.5rem;
+}
+
 /* SIDESOCIALS */
 
 .sidesocials-title {
