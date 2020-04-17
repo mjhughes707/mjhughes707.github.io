@@ -42,6 +42,17 @@ const Contact = () => {
           );
         })}
       </div>
+
+      <p className="section-description">
+        I'd love to grab a coffee, either in-person or virtually, and chat about
+        the ways we can help each other and others. I'm open to anything from
+        quick fixes to a full-time gig, as well as speaking and mentorship
+        opportunities.
+        <br />
+        <br />A lot of people have helped me get to where I am today and I am
+        all about paying it forward, so no matter how big or small the request,
+        just ask!
+      </p>
     </div>
   );
 };

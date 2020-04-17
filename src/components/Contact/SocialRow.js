@@ -14,7 +14,7 @@ const SocialRow = (props) => {
         rel="noopener noreferrer"
         className="social-link"
       >
-        <FontAwesomeIcon icon={icon} />
+        <FontAwesomeIcon icon={icon} className="fa-sm" />
         <span className="social-description">{username}</span>
       </a>
     </div>

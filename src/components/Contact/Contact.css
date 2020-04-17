@@ -1,12 +1,19 @@
 .social-container {
-  margin: 2rem auto 0;
+  margin: 1.5rem auto 2.5rem;
   max-width: 900px;
 }
 
 .SocialRow {
   display: flex;
   justify-content: space-between;
-  margin: 0.6rem 0;
+  margin: 0.5rem 0;
+  max-width: 469px;
+}
+
+.social-label {
+  font-family: var(--ff-secondary);
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .social-link {
@@ -16,6 +23,7 @@
 
 .social-description {
   margin-left: 0.5rem;
+  font-size: 0.9rem;
 }
 
 .social-description:after {
@@ -30,8 +38,8 @@
   transform: scaleX(1);
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   .social-container {
     padding: 0 2rem;
   }
