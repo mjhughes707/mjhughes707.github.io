@@ -6,6 +6,8 @@
 
 :root {
   --clr-light: #f2e5d5;
+  --clr-light-95: rgba(242, 229, 213, 0.95);
+  --clr-light-80: rgba(242, 229, 213, 0.8);
   --clr-bright: #a0ccf2;
   --clr-dark: #6b90bf;
   --clr-primary: #3c6aa6;
@@ -42,9 +44,15 @@ h4 {
 }
 
 .section-container {
-  padding: 7.5% 7.5% 0;
+  padding: 2rem 7.5% 0;
   height: 100vh;
+  width: 100%;
   background: white;
+}
+
+.section-title,
+.section-description {
+  max-width: 900px;
 }
 
 .section-title {
@@ -57,19 +65,28 @@ h4 {
 }
 
 .section-description {
-  margin-top: 1.5rem;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .section-container {
-    padding: 7.5% 10% 0;
-  }
+  margin: 1.5rem auto 1rem;
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .section-container {
-    padding: 7.5% 15% 0;
+    padding: 2rem 10% 0;
+  }
+
+  .section-title {
+    margin: 0 auto;
+  }
+
+  .section-description {
+    padding: 0 2rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .section-container {
+    margin-left: 300px;
+    padding-left: 50px;
   }
 }
