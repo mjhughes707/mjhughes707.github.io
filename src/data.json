@@ -6,7 +6,7 @@
       "caption": "Platform to connect podcast hosts and guests",
       "thumbnail": "pod-guild.png",
       "altText": "Screenshot preview of the desktop version of the Pod Guild app",
-      "description": "...",
+      "description": "The capstone project for my evening class at the PDX Code Guild, the idea for Pod Guild came from a friend, who had been hosting a podcast for our fantasy football league. The concept was simple: help hosts find qualified people to interview and help people who wish to share knowledge find an outlet. It also served as a great way to explore the MERN stack and was my first exposure to a JavaScript backend.",
       "technologies": [
         "HTML",
         "CSS",
@@ -24,7 +24,7 @@
       "name": "States Game",
       "caption": "A fun variation of 'Chandler's dumb states game' from Friends",
       "thumbnail": "states-game.png",
-      "description": "...",
+      "description": "This one was a lot of fun. The idea stemmed from a recent viewing of the Friends episode, 'The One Where Chandler Doesn't Like Dogs', before taking on a life of its own. If you're a fan of the show, it's possible you'll catch many of the subtle references sprinkled throughout. It was also a great opportunity to practice a bit more with React Hooks and building forms with React.",
       "technologies": ["HTML", "CSS", "JavaScript", "React"],
       "website": "https://matthewjhughes.com/states-game/",
       "github": "https://github.com/mjhughes707/states-game"
@@ -34,8 +34,15 @@
       "name": "Stocker",
       "caption": "Displays most recent tweets based on specific stock symbols",
       "thumbnail": "stocker.png",
-      "description": "...",
-      "technologies": ["HTML", "CSS", "JavaScript", "React", "StockTwits API"],
+      "description": "The only externally motivated project on the list, this app was built as part of a job application process. While it didn't technically serve its purpose, i.e. I didn't get the job, it taught me a lot about async/await, 3rd party APIs, the spread operator and how to properly map in JavaScript. Every experience is a learning opportunity.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Axios",
+        "StockTwits API"
+      ],
       "website": "https://matthewjhughes.com/stocker/",
       "github": "https://github.com/mjhughes707/stocker"
     },
@@ -44,7 +51,7 @@
       "name": "Make-A-Meowm",
       "caption": "Cat-Themed Meme Generator",
       "thumbnail": "make-a-meowm.png",
-      "description": "Inspired by the capstone project for the Intro to React course on Scrimba. Powered by my love for cats :-)",
+      "description": "Inspired by the 'Intro to React' course on Scrimba, and powered by my love for cats, this was my very 1st experience with React. It was a lesson on working with classes, state, object destructuring, fetching data and handling JSON. It was the launching point for my newfound obsession with the JavaScript library and many of the 'meowm' results still have me cracking up to this day.",
       "technologies": ["HTML", "CSS", "JavaScript", "React", "The Cat API"],
       "website": "https://matthewjhughes.com/make-a-meowm/",
       "github": "https://github.com/mjhughes707/make-a-meowm"
@@ -54,7 +61,7 @@
       "name": "Food Cart City",
       "caption": "Food Cart Database for Portland, OR",
       "thumbnail": "foodcartcity.png",
-      "description": "Inspired by the capstone project for the Intro to React course on Scrimba. Powered by my love for cats :-)",
+      "description": "The O.G. as far as applications go for me. While far from a perfect piece and with still plenty of room to grow, this project was the original capstone for my full-time bootcamp course at the PDX Code Guild. It was a multi-month pursuit, forged with plenty of 'head on keyboard' moments. In the end, it was a privilege to present it to my class as both the culmination of what we had learned and the foundation of where it would now lead.",
       "technologies": [
         "Python",
         "Django",
@@ -67,6 +74,16 @@
       ],
       "website": "http://foodcartcity.pythonanywhere.com/",
       "github": "https://github.com/mjhughes707/foodcartcity"
+    },
+    {
+      "dates": "May 2018 - Sept. 2018",
+      "name": "An Oasis in Space",
+      "caption": "Personal travel website for a six-month trip around the world",
+      "thumbnail": "anoasisinspace.png",
+      "description": "This was truly the beginning. Self-taught via the likes of freeCodeCamp, Team Treehouse & Codecademy, I aimed to assemble a site that would allow for a chronicling of a once-in-a-lifetime, global adventure. While I am admittedly hesitant to share, I do so to highlight how far I've grown as a developer and to be reminded of my love for travel, photography and the written word.",
+      "technologies": ["HTML", "CSS"],
+      "website": "http://anoasisinspace.com/",
+      "github": "https://github.com/mjhughes707/anoasisinspace"
     }
   ],
   "Socials": [
