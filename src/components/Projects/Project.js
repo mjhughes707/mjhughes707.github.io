@@ -23,43 +23,45 @@ const Project = (props) => {
   return (
     <div className="Project">
       <div className="project-dates">{dates}</div>
-      <h2 className="project-name">{name}</h2>
-      <p className="project-caption">{caption}</p>
-      <a
-        href={website}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="project-thumbnail"
-      >
-        <img src={require(`../../img/${thumbnail}`)} alt={altText} />
-      </a>
-      <p className="project-description">{description}</p>
-
-      <div className="project-links">
+      <div className="project-contents">
+        <h2 className="project-name">{name}</h2>
+        <p className="project-caption">{caption}</p>
         <a
           href={website}
           target="_blank"
           rel="noopener noreferrer"
-          className="Social"
+          className="project-thumbnail"
         >
-          <FontAwesomeIcon icon={faDesktop} className="fa-lg" />
+          <img src={require(`../../img/${thumbnail}`)} alt={altText} />
         </a>
+        <p className="project-description">{description}</p>
 
-        <a
-          href={github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="Social"
-        >
-          <FontAwesomeIcon icon={faGithub} className="fa-lg" />
-        </a>
-      </div>
+        <div className="project-links">
+          <a
+            href={website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="Social"
+          >
+            <FontAwesomeIcon icon={faDesktop} className="fa-lg" />
+          </a>
 
-      <h4 className="technologies-title">Technologies:</h4>
-      <div className="technologies-container">
-        {technologies.map((tech, index) => (
-          <Technology key={index} name={tech} />
-        ))}
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="Social"
+          >
+            <FontAwesomeIcon icon={faGithub} className="fa-lg" />
+          </a>
+        </div>
+
+        <h4 className="technologies-title">Technologies:</h4>
+        <div className="technologies-container">
+          {technologies.map((tech, index) => (
+            <Technology key={index} name={tech} />
+          ))}
+        </div>
       </div>
     </div>
   );
