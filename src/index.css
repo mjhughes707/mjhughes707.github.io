@@ -12,6 +12,9 @@
   --clr-dark: #6b90bf;
   --clr-primary: #3c6aa6;
   --clr-secondary: #70731d;
+
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-secondary: "Raleway", sans-serif;
 }
 
 html,
@@ -26,7 +29,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--ff-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -40,7 +43,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--ff-secondary);
 }
 
 .section-container {
@@ -77,10 +80,6 @@ h4 {
   .section-title {
     margin: 0 auto;
   }
-
-  .section-description {
-    padding: 0 2rem;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -88,5 +87,9 @@ h4 {
   .section-container {
     margin-left: 300px;
     padding-left: 50px;
+  }
+
+  .section-description {
+    padding: 0 2rem;
   }
 }
