@@ -7,9 +7,9 @@ const Button = (props) => {
   const link = name.replace(" ", "").toLowerCase();
 
   return (
-    <button className="home-button">
-      <Link to={`/${link}`}>{name}</Link>
-    </button>
+    <Link to={`/${link}`} className="home-button">
+      {name}
+    </Link>
   );
 };
 
