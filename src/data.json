@@ -1,7 +1,7 @@
 {
   "Projects": [
     {
-      "dates": "Dec. 2019 - Jan. 2020",
+      "dates": "Dec. 2019 - Feb. 2020",
       "name": "Pod Guild",
       "caption": "Platform to connect podcast hosts and guests",
       "thumbnail": "pod-guild.png",
@@ -16,7 +16,7 @@
         "Express",
         "MongoDB"
       ],
-      "website": "https://github.com/mjhughes707/podguild",
+      "website": "http://podguild.herokuapp.com/",
       "github": "https://github.com/mjhughes707/podguild"
     },
     {
@@ -57,7 +57,7 @@
       "github": "https://github.com/mjhughes707/make-a-meowm"
     },
     {
-      "dates": "Oct. 2019 - Nov. 2019",
+      "dates": "Aug. 2019 - Oct. 2019",
       "name": "Food Cart City",
       "caption": "Food Cart Database for Portland, OR",
       "thumbnail": "foodcartcity.png",
