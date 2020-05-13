@@ -8,13 +8,13 @@ const Header = (props) => {
   const { navlinks, toggleNavlinks } = props;
 
   return (
-    <div>
+    <header>
       <Navbar toggleNavlinks={toggleNavlinks} />
       <Navlinks
         toggleNavlinks={toggleNavlinks}
         visibility={navlinks ? "show-navlinks" : "hide-navlinks"}
       />
-    </div>
+    </header>
   );
 };
 
