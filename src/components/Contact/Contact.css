@@ -23,7 +23,8 @@
 
 .social-description {
   margin-left: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
 }
 
 .social-description:after {

@@ -13,7 +13,7 @@
   --clr-primary: #3c6aa6;
   --clr-secondary: #70731d;
 
-  --ff-primary: "Montserrat", sans-serif;
+  --ff-primary: "Lora", sans-serif;
   --ff-secondary: "Raleway", sans-serif;
 }
 
@@ -50,7 +50,7 @@ h4 {
   padding: 2rem 7.5% 0;
   height: 100vh;
   width: 100%;
-  background: white;
+  background: rgb(251, 251, 251);
 }
 
 .section-title,
@@ -68,7 +68,7 @@ h4 {
 }
 
 .section-description {
-  margin: 1.5rem auto 1rem;
+  margin: 1.5rem auto 3rem;
 }
 
 /* Medium devices (tablets, 768px and up) */
