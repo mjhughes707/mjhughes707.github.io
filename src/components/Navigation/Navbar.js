@@ -4,18 +4,18 @@ import Socials from "./Socials";
 import Hamburger from "./Hamburger";
 
 const Navbar = (props) => {
-  const { toggleNavlinks } = props;
+  const { toggleNavLinks } = props;
 
   return (
     <nav className="Navbar">
       <Socials />
-      <Hamburger toggleNavlinks={toggleNavlinks} />
+      <Hamburger toggleNavLinks={toggleNavLinks} />
     </nav>
   );
 };
 
 Navbar.propTypes = {
-  toggleNavlinks: PropTypes.func.isRequired,
+  toggleNavLinks: PropTypes.func.isRequired,
 };
 
 export default Navbar;

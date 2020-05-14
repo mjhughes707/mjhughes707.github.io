@@ -10,19 +10,19 @@ import Contact from "./components/Contact/Contact";
 import Resume from "./components/Resume/Resume";
 
 function App() {
-  const [navlinks, setNavlinks] = useState(false);
+  const [isNavLinksOpen, setIsNavLinksOpen] = useState(false);
 
-  const toggleNavlinks = () => {
-    setNavlinks(!navlinks);
+  const toggleNavLinks = () => {
+    setIsNavLinksOpen(!isNavLinksOpen);
   };
 
   return (
     <div className="App">
-      <Header navlinks={navlinks} toggleNavlinks={toggleNavlinks} />
+      <Header isNavLinksOpen={isNavLinksOpen} toggleNavLinks={toggleNavLinks} />
       <Aside />
       <Switch>
         <Route exact path="/">
-          <Home navlinks={navlinks} />
+          <Home />
         </Route>
         <Route exact path="/aboutme">
           <About />

@@ -72,20 +72,20 @@
 
 /* NAVLINKS */
 
-.Navlinks {
+.NavLinks {
   margin: 0;
   padding: 0.25rem 0;
   border-top: 1px solid white;
   background-color: var(--clr-light-95);
 }
 
-.Navlink {
+.NavLink {
   padding: 0 1.25rem;
   height: 50px;
   list-style: none;
 }
 
-.Navlink a {
+.NavLink a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -96,8 +96,8 @@
   width: 100%;
 }
 
-.Navlink a:hover,
-.Navlink a:focus {
+.NavLink a:hover,
+.NavLink a:focus {
   -webkit-text-stroke-width: 0.75px;
 }
 

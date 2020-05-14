@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Hamburger = (props) => {
-  const { toggleNavlinks } = props;
+  const { toggleNavLinks } = props;
 
   return (
     <button
-      onClick={toggleNavlinks}
+      onClick={toggleNavLinks}
       className="Hamburger"
       aria-label="toggle navigation"
     >
@@ -16,7 +16,7 @@ const Hamburger = (props) => {
 };
 
 Hamburger.propTypes = {
-  toggleNavlinks: PropTypes.func.isRequired,
+  toggleNavLinks: PropTypes.func.isRequired,
 };
 
 export default Hamburger;

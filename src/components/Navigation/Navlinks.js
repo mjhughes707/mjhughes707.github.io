@@ -1,23 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Navlink from "./Navlink";
+import NavLink from "./NavLink";
 
-const Navlinks = (props) => {
-  const { toggleNavlinks, visibility } = props;
+const NavLinks = (props) => {
+  const { toggleNavLinks, visibility } = props;
 
   return (
-    <ul className={`Navlinks ${visibility}`}>
-      <Navlink toggleNavlinks={toggleNavlinks} name="ABOUT ME" />
-      <Navlink toggleNavlinks={toggleNavlinks} name="PROJECTS" />
-      <Navlink toggleNavlinks={toggleNavlinks} name="RESUME" />
-      <Navlink toggleNavlinks={toggleNavlinks} name="CONTACT" />
+    <ul className={`NavLinks ${visibility}`}>
+      <NavLink toggleNavLinks={toggleNavLinks} name="ABOUT ME" />
+      <NavLink toggleNavLinks={toggleNavLinks} name="PROJECTS" />
+      <NavLink toggleNavLinks={toggleNavLinks} name="RESUME" />
+      <NavLink toggleNavLinks={toggleNavLinks} name="CONTACT" />
     </ul>
   );
 };
 
-Navlinks.propTypes = {
-  toggleNavlinks: PropTypes.func.isRequired,
+NavLinks.propTypes = {
+  toggleNavLinks: PropTypes.func.isRequired,
   visibility: PropTypes.string.isRequired,
 };
 
-export default Navlinks;
+export default NavLinks;
