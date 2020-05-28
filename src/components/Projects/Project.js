@@ -39,6 +39,7 @@ const Project = (props) => {
         <div className="project-links">
           <a
             href={website}
+            aria-label={`FontAwesome Icon: ${faDesktop.iconName}`}
             target="_blank"
             rel="noopener noreferrer"
             className="Social"
@@ -48,6 +49,7 @@ const Project = (props) => {
 
           <a
             href={github}
+            aria-label={`FontAwesome Icon: ${faGithub.iconName}`}
             target="_blank"
             rel="noopener noreferrer"
             className="Social"

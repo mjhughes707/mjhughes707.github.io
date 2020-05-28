@@ -4,8 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Social = (props) => {
   const { icon, url } = props;
+
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="Social">
+    <a
+      href={url}
+      aria-label={`FontAwesome Icon: ${icon.iconName}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="Social"
+    >
       <FontAwesomeIcon icon={icon} />
     </a>
   );
