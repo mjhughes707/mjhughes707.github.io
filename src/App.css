@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  background-image: url("./img/vineyards.jpeg");
+  background-image: url("./img/vineyards.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

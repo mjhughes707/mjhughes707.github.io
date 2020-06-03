@@ -16,6 +16,7 @@ const Project = (props) => {
       website,
       github,
       thumbnail,
+      backupThumbnail,
       altText,
     },
   } = props;
@@ -32,7 +33,16 @@ const Project = (props) => {
           rel="noopener noreferrer"
           className="project-thumbnail"
         >
-          <img src={require(`../../img/${thumbnail}`)} alt={altText} />
+          <picture>
+            <source
+              type="image/webp"
+              srcSet={require(`../../img/${thumbnail}`)}
+            />
+            <img
+              src={require(`../../img/backup/${backupThumbnail}`)}
+              alt={altText}
+            />
+          </picture>
         </a>
         <p className="project-description">{description}</p>
 
