@@ -1,3 +1,44 @@
+@font-face {
+  font-family: "Lora";
+  src: local("Lora"),
+    url(./fonts/Lora/Lora-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lora";
+  src: local("Lora"),
+    url(./fonts/Lora/Lora-Italic-VariableFont_wght.ttf) format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+    url(./fonts/Raleway/Raleway-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+    url(./fonts/Raleway/Raleway-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+    url(./fonts/Raleway/Raleway-Italic.ttf) format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+    url(./fonts/Raleway/Raleway-BoldItalic.ttf) format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
 :root {
   --clr-light: #f2e5d5;
   --clr-light-95: rgba(242, 229, 213, 0.95);
@@ -7,8 +48,8 @@
   --clr-primary: #3c6aa6;
   --clr-secondary: #70731d;
 
-  --ff-primary: "Lora", sans-serif;
-  --ff-secondary: "Raleway", sans-serif;
+  --ff-primary: Lora, serif;
+  --ff-secondary: Raleway, sans-serif;
 }
 
 html,
