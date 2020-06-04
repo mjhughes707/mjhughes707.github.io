@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.709c0435.chunk.css",
+    "main.css": "/static/css/main.41146a7d.chunk.css",
     "main.js": "/static/js/main.c694ef40.chunk.js",
     "main.js.map": "/static/js/main.c694ef40.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5b86be0a.js",
@@ -8,9 +8,9 @@
     "static/js/2.1b7d19b4.chunk.js": "/static/js/2.1b7d19b4.chunk.js",
     "static/js/2.1b7d19b4.chunk.js.map": "/static/js/2.1b7d19b4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.50bbf3a5e7800d941fb9bc7d11bf761a.js": "/precache-manifest.50bbf3a5e7800d941fb9bc7d11bf761a.js",
+    "precache-manifest.0a8eca65de8efe310ec49d549eaa7680.js": "/precache-manifest.0a8eca65de8efe310ec49d549eaa7680.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.709c0435.chunk.css.map": "/static/css/main.709c0435.chunk.css.map",
+    "static/css/main.41146a7d.chunk.css.map": "/static/css/main.41146a7d.chunk.css.map",
     "static/js/2.1b7d19b4.chunk.js.LICENSE.txt": "/static/js/2.1b7d19b4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Raleway-Regular.9942588a.ttf",
     "static/media/anoasisinspace.webp": "/static/media/anoasisinspace.46b13507.webp",
@@ -38,12 +38,12 @@
     "static/media/stocker.png": "/static/media/stocker.596f6446.png",
     "static/media/stocker.jpg": "/static/media/stocker.e3efed30.jpg",
     "static/media/vineyards.webp": "/static/media/vineyards.67431720.webp",
-    "static/media/vineyards.jpeg": "/static/media/vineyards.8e5dbb8e.jpeg"
+    "static/media/App.css": "/static/media/vineyards.8e5dbb8e.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.5b86be0a.js",
     "static/js/2.1b7d19b4.chunk.js",
-    "static/css/main.709c0435.chunk.css",
+    "static/css/main.41146a7d.chunk.css",
     "static/js/main.c694ef40.chunk.js"
   ]
 }
