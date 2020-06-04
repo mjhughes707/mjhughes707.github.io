@@ -2,6 +2,7 @@
   font-family: "Lora";
   src: local("Lora"),
     url(./fonts/Lora/Lora-VariableFont_wght.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -9,12 +10,14 @@
   src: local("Lora"),
     url(./fonts/Lora/Lora-Italic-VariableFont_wght.ttf) format("truetype");
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Raleway";
   src: local("Raleway"),
     url(./fonts/Raleway/Raleway-Regular.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -22,6 +25,7 @@
   src: local("Raleway"),
     url(./fonts/Raleway/Raleway-Bold.ttf) format("truetype");
   font-weight: bold;
+  font-display: swap;
 }
 
 @font-face {
@@ -29,6 +33,7 @@
   src: local("Raleway"),
     url(./fonts/Raleway/Raleway-Italic.ttf) format("truetype");
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -37,6 +42,7 @@
     url(./fonts/Raleway/Raleway-BoldItalic.ttf) format("truetype");
   font-weight: bold;
   font-style: italic;
+  font-display: swap;
 }
 
 :root {
