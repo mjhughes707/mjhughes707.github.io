@@ -94,10 +94,18 @@ const About = () => {
         <p className="about-description">
           Following the arrival of COVID-19 and the corresponding job
           disruption, I joined back up with the folks at The Collab Lab to help
-          develop a pilot project for future participants. Meanwhile, I also
-          continued work on a number of various personal side projects; one of
-          which I hope can be useful in helping ease the financial burden on
-          local businesses in my community.
+          develop a{" "}
+          <a
+            href="https://tcl-pilot-2020-05.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            pilot project
+          </a>{" "}
+          for future participants. Meanwhile, I also continued work on a number
+          of various personal side projects; one of which I hope can be useful
+          in helping ease the financial burden on local businesses in my
+          community.
         </p>
       </div>
     </div>

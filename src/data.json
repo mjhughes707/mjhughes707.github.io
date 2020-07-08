@@ -1,6 +1,26 @@
 {
   "Projects": [
     {
+      "dates": "May 2020 - July 2020",
+      "name": "What's Near Me?",
+      "caption": "Mobile web app to display nearby Wikipedia entries",
+      "thumbnail": "whats-near-me.webp",
+      "backupThumbnail": "whats-near-me.jpg",
+      "altText": "Screenshot preview of the desktop version of the What's Near Me? app",
+      "description": "The pilot project for the advanced course of The Collab Lab; a volunteer-driven program founded on the mission of delivering the collaborative side of the software development experience to recent bootcamp graduates. Over the course of eight weeks, myself and three other early career devs not only constructed the application, but also aided in the devising of the course structure, so it may best suit the many eager participants to follow.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Netlify",
+        "Google Maps API",
+        "Wikipedia Nearby API"
+      ],
+      "website": "https://tcl-pilot-2020-05.netlify.app/",
+      "github": "https://github.com/the-collab-lab/tcl-pilot-2020-05"
+    },
+    {
       "dates": "Dec. 2019 - Feb. 2020",
       "name": "Pod Guild",
       "caption": "Platform to connect podcast hosts and guests",
