@@ -20,7 +20,7 @@ const About = () => {
 
         <Bullet
           icon={faPassport}
-          description="Dual Citizen with the United Kingdom"
+          description="Dual Citizenship with the United Kingdom"
         />
         <Bullet
           icon={faGlobeAfrica}
@@ -93,8 +93,8 @@ const About = () => {
         </p>
         <p className="about-description">
           Following the arrival of COVID-19 and the corresponding job
-          disruption, I joined back up with the folks at The Collab Lab to help
-          develop a{" "}
+          disruption, I took advantage of the unexpected downtime to join back
+          up with the folks at The Collab Lab and help develop a{" "}
           <a
             href="https://tcl-pilot-2020-05.netlify.app/"
             target="_blank"
@@ -102,10 +102,10 @@ const About = () => {
           >
             pilot project
           </a>{" "}
-          for future participants. Meanwhile, I also continued work on a number
-          of various personal side projects; one of which I hope can be useful
-          in helping ease the financial burden on local businesses in my
-          community.
+          for future participants, while also later serving as an assistant
+          mentor to the nonprofit's 10th cohort; writing code reviews, leading
+          biweekly retrospectives and answering questions via Slack or Zoom
+          calls.
         </p>
       </div>
     </div>
