@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d88444f9.chunk.css",
-    "main.js": "/static/js/main.ed8b8af5.chunk.js",
-    "main.js.map": "/static/js/main.ed8b8af5.chunk.js.map",
+    "main.css": "/static/css/main.3c116861.chunk.css",
+    "main.js": "/static/js/main.e72a3a4d.chunk.js",
+    "main.js.map": "/static/js/main.e72a3a4d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5b86be0a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5b86be0a.js.map",
-    "static/js/2.4026665e.chunk.js": "/static/js/2.4026665e.chunk.js",
-    "static/js/2.4026665e.chunk.js.map": "/static/js/2.4026665e.chunk.js.map",
+    "static/js/2.8ed86f8f.chunk.js": "/static/js/2.8ed86f8f.chunk.js",
+    "static/js/2.8ed86f8f.chunk.js.map": "/static/js/2.8ed86f8f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c0c6b01938159c3ce0fdc39ce772f729.js": "/precache-manifest.c0c6b01938159c3ce0fdc39ce772f729.js",
+    "precache-manifest.d2b8ee81aa9a95f4525b56169e36f5b4.js": "/precache-manifest.d2b8ee81aa9a95f4525b56169e36f5b4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d88444f9.chunk.css.map": "/static/css/main.d88444f9.chunk.css.map",
-    "static/js/2.4026665e.chunk.js.LICENSE.txt": "/static/js/2.4026665e.chunk.js.LICENSE.txt",
+    "static/css/main.3c116861.chunk.css.map": "/static/css/main.3c116861.chunk.css.map",
+    "static/js/2.8ed86f8f.chunk.js.LICENSE.txt": "/static/js/2.8ed86f8f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Raleway-Regular.9942588a.ttf",
     "static/media/anoasisinspace.webp": "/static/media/anoasisinspace.46b13507.webp",
     "static/media/anoasisinspace.png": "/static/media/anoasisinspace.9e8d2a65.png",
@@ -30,7 +30,9 @@
     "static/media/pod-guild.webp": "/static/media/pod-guild.3831ec82.webp",
     "static/media/pod-guild.jpg": "/static/media/pod-guild.87ef42a9.jpg",
     "static/media/pod-guild.png": "/static/media/pod-guild.f8ed0e8b.png",
-    "static/media/resume.pdf": "/static/media/resume.094fcfd6.pdf",
+    "static/media/pokatcher.webp": "/static/media/pokatcher.195f3d4a.webp",
+    "static/media/pokatcher.png": "/static/media/pokatcher.2b1af846.png",
+    "static/media/resume.pdf": "/static/media/resume.a5a15d17.pdf",
     "static/media/states-game.webp": "/static/media/states-game.03cb5d8e.webp",
     "static/media/states-game.jpg": "/static/media/states-game.2f285801.jpg",
     "static/media/states-game.png": "/static/media/states-game.38d9ca70.png",
@@ -45,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5b86be0a.js",
-    "static/js/2.4026665e.chunk.js",
-    "static/css/main.d88444f9.chunk.css",
-    "static/js/main.ed8b8af5.chunk.js"
+    "static/js/2.8ed86f8f.chunk.js",
+    "static/css/main.3c116861.chunk.css",
+    "static/js/main.e72a3a4d.chunk.js"
   ]
 }
