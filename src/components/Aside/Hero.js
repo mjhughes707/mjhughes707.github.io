@@ -16,7 +16,7 @@ const Hero = () => {
           />
         </picture>
       </Link>
-      <h1 className="hero-title">Matthew J. Hughes</h1>
+      <h1 className="hero-title">Matthew Hughes</h1>
       <h2 className="hero-subtitle">Software Engineer</h2>
     </div>
   );
