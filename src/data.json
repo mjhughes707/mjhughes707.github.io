@@ -1,6 +1,31 @@
 {
   "Projects": [
     {
+      "dates": "September 2020",
+      "name": "Pokatchér",
+      "caption": "A web app for catching and naming over 800 different Pokémon",
+      "thumbnail": "pokatcher.webp",
+      "backupThumbnail": "pokatcher.png",
+      "altText": "Screenshot preview of the desktop version of the Pokatchér app",
+      "description": "The take home assignment has become a staple of many tech hiring practices. While cumbersome, they do offer an opportunity to challenge oneself; whether by exploring a new styling library, introducing tests or brushing up on design skills. For this particular project, I attempted to indulge all three, while also focusing on best practices with regards to semantic HTML, project structure and Github README files. The result is a small, yet solid and attractive app, which serves its purpose: to catch and name Pokémon.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "React Router",
+        "Material-UI",
+        "Figma",
+        "Netlify",
+        "Jest",
+        "Enzyme",
+        "Axios",
+        "PokéAPI"
+      ],
+      "website": "https://pokatcher.netlify.app/",
+      "github": "https://github.com/mjhughes707/pokatcher"
+    },
+    {
       "dates": "May 2020 - July 2020",
       "name": "What's Near Me?",
       "caption": "Mobile web app to display nearby Wikipedia entries",
@@ -59,7 +84,7 @@
       "thumbnail": "stocker.webp",
       "backupThumbnail": "stocker.jpg",
       "altText": "Screenshot preview of the desktop version of the Stocker app",
-      "description": "The only externally motivated project on the list, this app was built as part of a job application process. While it didn't technically serve its purpose, i.e. I didn't get the job, it taught me a lot about async/await, 3rd party APIs, the spread operator and how to properly map in JavaScript. Every experience is a learning opportunity.",
+      "description": "The first of two externally motivated projects on the list, this app was built as part of a job application process. While it didn't technically serve its purpose, i.e. I didn't get the job, it taught me a lot about async/await, 3rd party APIs, the spread operator and how to properly map in JavaScript. Every experience is a learning opportunity.",
       "technologies": [
         "HTML",
         "CSS",
